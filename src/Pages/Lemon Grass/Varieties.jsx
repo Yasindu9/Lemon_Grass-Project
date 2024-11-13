@@ -85,7 +85,7 @@ const Varieties = () => {
           </Typography>
           <TextBox>
             <ImageContainer>
-              <Image src="/Picture8.jpg" alt="Cymbopogon flexuosus" />
+              <Image src="/lgrass.jpg" alt="Cymbopogon flexuosus" />
             </ImageContainer>
             <Typography variant="body1">
               It is the commercial lemongrass used in oil distillation. The plant is indigenous to India. Two species of C. flexuosus are reported based on the color of the plant. The pseudostem of C. flexuosus Choomana pullu is red in color. A bulk of the lemongrass oil is obtained from the red color type of Indian lemongrass. The other type is C. flexuosus forma albescens which have a greenish white or light red pseudostem. The quality of the white lemongrass oil is inferior to the red type variety.

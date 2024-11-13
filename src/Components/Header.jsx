@@ -81,7 +81,7 @@ const Header = () => {
       <Toolbar sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         {/* Logo */}
         <Box display="flex" alignItems="center">
-          <Logo src={`${process.env.PUBLIC_URL}/icon.png`} alt="Logo" />
+          {/* <Logo src={`${process.env.PUBLIC_URL}/icon.png`} alt="Logo" /> */}
           <Typography variant="h6" style={{ fontWeight: 'bold', color: '#333' }}>
             Agri HUB
           </Typography>

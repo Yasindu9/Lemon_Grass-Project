@@ -53,7 +53,7 @@ const Footer = () => {
             {/* Left Side: Logo and Contact Information */}
             <LeftContainer>
                 <LogoContainer>
-                    <Logo src={`${process.env.PUBLIC_URL}/icon.png`} alt="Logo" />
+                    {/* <Logo src={`${process.env.PUBLIC_URL}/icon.png`} alt="Logo" /> */}
                     <Typography variant="h6" style={{ fontWeight: 'bold' }}>
                         Agri HUB
                     </Typography>
