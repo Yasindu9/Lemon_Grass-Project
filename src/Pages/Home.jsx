@@ -16,7 +16,7 @@ const blink = keyframes`
 const HeroSection = styled(Box)(({ theme }) => ({
   width: '100%',
   height: '70vh',
-  backgroundImage: `url(${process.env.PUBLIC_URL}/Section%20one.png)`,
+  backgroundImage: `url(${process.env.PUBLIC_URL}/main11.jpg  )`,
   backgroundSize: 'cover',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',

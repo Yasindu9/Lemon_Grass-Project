@@ -83,7 +83,7 @@ const Header = () => {
         <Box display="flex" alignItems="center">
           {/* <Logo src={`${process.env.PUBLIC_URL}/icon.png`} alt="Logo" /> */}
           <Typography variant="h6" style={{ fontWeight: 'bold', color: '#333' }}>
-            Agri HUB
+          Lemongrass Study Report
           </Typography>
         </Box>
 

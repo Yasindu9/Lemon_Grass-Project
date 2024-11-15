@@ -24,7 +24,7 @@ const TextBox = styled(Box)({
 });
 
 const ImageContainer = styled(Box)({
-  width: '300px',
+  width: '600px',
   height: '200px',
   marginRight: '20px',
   borderRadius: '4px',

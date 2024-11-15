@@ -55,7 +55,7 @@ const Footer = () => {
                 <LogoContainer>
                     {/* <Logo src={`${process.env.PUBLIC_URL}/icon.png`} alt="Logo" /> */}
                     <Typography variant="h6" style={{ fontWeight: 'bold' }}>
-                        Agri HUB
+                    Lemongrass Study Report
                     </Typography>
                 </LogoContainer>
                 <Typography variant="body2"> lemongrassproject@gmail.com</Typography>

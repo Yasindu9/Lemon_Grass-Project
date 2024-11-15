@@ -16,7 +16,7 @@ const FormSection = styled(Box)(({ theme }) => ({
   color: '#FFFFFF',
   padding: theme.spacing(4),
   borderRadius: theme.shape.borderRadius,
-//   boxShadow: theme.shadows[3],
+  //   boxShadow: theme.shadows[3],
   textAlign: 'center',
   flex: '1 1 50%',
 }));
@@ -36,7 +36,7 @@ const FormTitle = styled(Typography)({
 
 const InputField = styled(TextField)(({ theme }) => ({
   '& .MuiInputBase-root': {
-    backgroundColor: '#000000',
+    backgroundColor: '#ffffff',
     color: '#00BFFF',
   },
   '& .MuiOutlinedInput-root': {
@@ -60,12 +60,12 @@ const InputField = styled(TextField)(({ theme }) => ({
 }));
 
 const SubmitButton = styled(Button)(({ theme }) => ({
-  backgroundColor: '#000000',
+  backgroundColor: '#ffffff',
   color: '#00BFFF',
   border: `2px solid #00BFFF`,
   '&:hover': {
     backgroundColor: '#00BFFF',
-    color: '#000000',
+    color: '#ffffff',
   },
   padding: theme.spacing(1.5),
   transition: 'all 0.3s ease',
@@ -90,7 +90,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs
-      .send('service_o7p78in', 'template_2a8mdrk', formData, '5o0p7cNhiuxLpCoKe' )
+      .send('service_o7p78in', 'template_2a8mdrk', formData, '5o0p7cNhiuxLpCoKe')
       .then(
         (response) => {
           console.log(response);
@@ -112,14 +112,14 @@ const ContactForm = () => {
   return (
     <FormContainer>
       <FormSection>
-        <FormTitle>Contact</FormTitle>
+        <FormTitle>Feedbacks</FormTitle>
         <Typography variant="h4" sx={{ marginBottom: 2 }}>
-          Let's Work Together
+          Give Your Valuble Feedbacks To Us..
         </Typography>
-        <Typography variant="body1" sx={{ marginBottom: 4 }}>
+        {/* <Typography variant="body1" sx={{ marginBottom: 4 }}>
           I'd love to hear from you! Whether you have a project in mind or just
           want to say hello, feel free to reach out using this form.
-        </Typography>
+        </Typography> */}
       </FormSection>
       <FormSection>
         <Form onSubmit={handleSubmit}>
